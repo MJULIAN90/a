@@ -33,3 +33,12 @@ const messageAlert4 = (text) => {
         confirmButtonColor: "blue",
     });
 }
+
+const messageAlert5 = (text) => {
+    Swal.fire({
+        title: "Congratulations",
+        text: `${text}.`,
+        icon: "success",
+        confirmButtonColor: "blue",
+    });
+}
